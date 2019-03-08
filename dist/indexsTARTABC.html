@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    안녕하세요
+</body>
+<script>var seisuser;
+var seisuser2;
+var url = ['https://dydals5678.tistory.com/', 'http://blog.naver.com/dydals56789/221478480949', 'http://blog.naver.com/dydals56789/221462441566', 'http://blog.naver.com/dydals56789/221452672104', 'http://blog.naver.com/dydals56789/221450584432', 'https://dydals5678.tistory.com/1', 'https://blog.naver.com/dydals56789/221481090902', 'https://dydals5678.tistory.com/2', 'https://blog.naver.com/dydals56789/221479974661', 'https://dydals5678.tistory.com/3', 'https://blog.naver.com/dydals56789/221479546855', 'https://dydals5678.tistory.com/4', 'https://blog.naver.com/dydals56789/221479525617', 'https://dydals5678.tistory.com/5', 'https://blog.naver.com/dydals56789/221479130365', 'https://dydals5678.tistory.com/6', 'https://blog.naver.com/dydals56789/221478877526', 'https://dydals5678.tistory.com/7', 'https://blog.naver.com/dydals56789/221478858558', 'https://dydals5678.tistory.com/8', 'https://blog.naver.com/dydals56789/221478858011', 'https://dydals5678.tistory.com/9', 'https://blog.naver.com/dydals56789/221478857071', 'https://dydals5678.tistory.com/10', 'https://blog.naver.com/dydals56789/221475543601', 'https://dydals5678.tistory.com/11', 'https://blog.naver.com/dydals56789/221476519945', 'https://dydals5678.tistory.com/12', 'https://blog.naver.com/dydals56789/221470188593', 'https://dydals5678.tistory.com/13', 'https://blog.naver.com/dydals56789/221469641170', 'https://blog.naver.com/dydals56789/221469428921', 'https://dydals5678.tistory.com/14', 'https://blog.naver.com/dydals56789/221467819487', 'https://dydals5678.tistory.com/15', 'https://blog.naver.com/dydals56789/221465865834', 'https://dydals5678.tistory.com/16', 'https://dydals5678.tistory.com/17', 'https://blog.naver.com/dydals56789/221465578766', 'https://dydals5678.tistory.com/18', 'https://blog.naver.com/dydals56789/221465637805', 'https://dydals5678.tistory.com/19', 'https://blog.naver.com/dydals56789/221465701258', 'https://dydals5678.tistory.com/20', 'https://dydals5678.tistory.com/21', 'https://dydals5678.tistory.com/22', 'https://dydals5678.tistory.com/23', 'https://dydals5678.tistory.com/24', 'https://dydals5678.tistory.com/25', 'https://blog.naver.com/dydals56789/221465682075', 'https://dydals5678.tistory.com/26', 'https://dydals5678.tistory.com/27', 'https://dydals5678.tistory.com/28', 'https://dydals5678.tistory.com/29', 'https://dydals5678.tistory.com/30', 'https://dydals5678.tistory.com/31', 'https://dydals5678.tistory.com/32', 'https://dydals5678.tistory.com/34', 'https://dydals5678.tistory.com/33', 'https://dydals5678.tistory.com/35', 'https://dydals5678.tistory.com/36', 'https://dydals5678.tistory.com/37', 'https://dydals5678.tistory.com/38', 'https://dydals5678.tistory.com/39', 'https://dydals5678.tistory.com/40', 'https://dydals5678.tistory.com/41', 'https://dydals5678.tistory.com/42', 'https://dydals5678.tistory.com/43', 'https://dydals5678.tistory.com/44', 'https://dydals5678.tistory.com/45', 'https://dydals5678.tistory.com/46', 'https://dydals5678.tistory.com/47', 'https://dydals5678.tistory.com/48', 'https://dydals5678.tistory.com/49', 'https://dydals5678.tistory.com/50', 'https://dydals5678.tistory.com/51', 'https://dydals5678.tistory.com/52', 'https://dydals5678.tistory.com/53', 'https://dydals5678.tistory.com/54', 'https://dydals5678.tistory.com/55', 'https://dydals5678.tistory.com/56', 'https://dydals5678.tistory.com/57', 'https://dydals5678.tistory.com/58', 'https://dydals5678.tistory.com/59', 'https://dydals5678.tistory.com/60', 'https://dydals5678.tistory.com/61', 'https://dydals5678.tistory.com/62', 'https://dydals5678.tistory.com/63', 'https://dydals5678.tistory.com/64', 'https://dydals5678.tistory.com/65', 'https://dydals5678.tistory.com/66', 'https://dydals5678.tistory.com/67', 'https://dydals5678.tistory.com/68', 'https://dydals5678.tistory.com/69', 'https://dydals5678.tistory.com/70', 'https://dydals5678.tistory.com/71', 'https://dydals5678.tistory.com/72', 'https://dydals5678.tistory.com/73', 'https://dydals5678.tistory.com/74', 'https://dydals5678.tistory.com/75', 'https://dydals5678.tistory.com/76']; //top.open('https://dydals5678.tistory.com/76', 'newWindow')
+//window.open('aboud:blank', 'newWindow')
+
+function abcd() {
+  for (var i = 0; i < url.length; i++) {
+    var new_popup1 = function new_popup1(i) {
+      return window.open(url[i], 'newWindow');
+    };
+
+    console.log(1);
+
+    var popup1close = function popup1close(i, data) {
+      ;
+      data(i).close(); // new_popup1(data).close();
+    };
+
+    setTimeout(new_popup1, 15000 * (i + 1), i); // setTimeout(popup1close , 15000*(i+1),i,new_popup1);
+  }
+} //abcd();
+//abcd();
+// function op09i(url){
+//     for(var i=0; i<url.length;i++){
+//         seisuser = setTimeout(abcd,3000*(i+1),i);
+//         seisuser2 = setTimeout(abcde,5000*(i+1),i,data);
+//     }
+// }
+// function abcd(i){
+//     window.open(url[i], 'newWindow');
+// }
+// function abcde(i,data){
+//     window.open(url[i], 'newWindow');
+// }
+// function onPopupWindow(){  
+//     var win =  window.open('https://dydals5678.tistory.com/76', 'letme', "top=10, left=10, width=400, height=400").document.write('<iframe width="100%", height="100%" src="http://blog.saltfactory.net/child.html" frameborder="0" allowfullscreen></iframe>');
+//     win.document.write('<iframe width="100%", height="100%" src="http://blog.saltfactory.net/child.html" frameborder="0" allowfullscreen></iframe>')
+// }
+// function test99(){
+//     console.log("테스트입니다");
+// }
+// function test10(){
+//     var abc = function (){
+//     console.log("안녕하세여");
+// }
+// setTimeout(abc(),3000);
+// }
+// var url = [ 'http://blog.naver.com/dydals56789',
+//             'https://blog.naver.com/dydals56789/221478480949',
+//             'https://blog.naver.com/dydals56789/221462441566',
+//             'https://blog.naver.com/dydals56789/221452672104',
+//             'https://blog.naver.com/dydals56789/221450584432',
+//           ];
+// var timeoutID;
+// function delayedAlert() {
+//   timeoutID = window.setTimeout(slowAlert, 2000);
+// }
+// function slowAlert() {
+//   console.log(url);
+// }
+// delayedAlert(url);
+//     function abcd(){
+//     for(var i=0; i<url.length;i++){
+//         var new_popup1 = function() {
+//             return window.open(url[i], 'newWindow');
+//         };
+//         var popup1close = function() {
+//             return new_popup1().close();
+//         };
+//         setTimeout(new_popup1 , 3000*(i+1));
+//         setTimeout(popup1close , 5000*(i+1));
+//     }
+// }
+// var abc = ['나는 가수다','나는 가수다20','나는 가수다30','나는 가수다40'];
+// var url = ['a','b','c','d'];
+// function op09i(url){
+//     for(var i=0; i<url.length;i++){
+//         var ab22 =function(i){
+//             console.log(url[i]);
+//         };
+//         seisTimer.timer = setTimeout(ab22,3000*(i+1));
+//     }
+// }
+// op09i(url);
+//</script>
+// </html>
